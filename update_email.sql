@@ -1,0 +1,13 @@
+UPDATE APPS.FND_USER
+SET EMAIL_ADDRESS = 'amitabh.prakash@bakerhughes.com'
+WHERE USER_NAME = '503153123';
+
+UPDATE APPS.FND_USER
+SET EMAIL_ADDRESS = 'ankit.sharma@bakerhughes.com'
+WHERE USER_NAME = '212395853';
+
+UPDATE APPS.FND_USER
+SET EMAIL_ADDRESS = 'randy1.simmons@bakerhughes.com'
+WHERE USER_NAME = '210024303';
+
+COMMIT;
